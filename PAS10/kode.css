@@ -1,0 +1,163 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight:1000;
+    float: left;
+    font-family: 'comic sans ms';
+    color: #d43061;
+}
+
+.logo2 {
+    font-size: 20px;
+    float: left;
+    font-family: 'comic sans ms';
+    font-weight: bold;
+    color: #B91646  
+}
+
+.logo2 a {
+    color: black;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+.head-txt {
+    font-family: 'comic sans ms';
+    margin-bottom: 20px;
+}
+
+.head-content{
+    padding: 0 5rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.head-content img{
+    width: 50%;
+}
+
+table{
+    border: solid 2px grey;
+    width:50%;
+    margin: 0 auto;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+    float: right;
+}
+
+table tr th{
+    font-size: 1.5em;
+    text-align: start;
+}
+
+table tr td{
+    font-size: 1.2em;
+    padding: 20px 20px 20px 0;
+    text-align: start;
+}
+
+table tr td code{
+    color: red;
+    font-size: 1.5em;
+}
+
+.tag {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.tag h1{
+    font-family: 'comic sans ms';
+    margin-bottom: 20px;
+}
+
+.tag p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.tag ul li{
+    font-size: 1.3em;
+    color: red;
+}
+
+.tag ul li span{
+    color: black;
+}
+
+#copyright{
+    text-align: center;
+    margin: 100px 0 ;
+}
